@@ -1,0 +1,32 @@
+hr{
+border:5px solid #0097A6;
+margin-top:0;
+}
+.btn{
+    background: #06AEAB;
+    color:#fff;
+}
+.bg{
+    background:#0097A6;
+}
+.lead{
+    color:#0097A6;
+}
+input[type="text"],
+textarea.form-control{
+    background:#D5F5F5;
+    color:#fff;
+}
+.fas,
+.contact-panel,
+.background-secondary{
+    background:#00CEC8;
+}
+.transparent{
+    background:none;
+}
+.card{
+    -webkit-box-shadow: 9px 10px 5px -5px rgba(189,185,189,1);
+        -moz-box-shadow: 9px 10px 5px -5px rgba(189,185,189,1);
+        box-shadow: 9px 10px 5px -5px rgba(189,185,189,1);
+}
