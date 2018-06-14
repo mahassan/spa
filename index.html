@@ -12,69 +12,65 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  CSS
-
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="/assets/slick/slick.min.js"></script>
+<link rel="stylesheet" href="/assets/slick/slick-theme.css">
+<link rel="stylesheet" href="/assets/slick/slick.css">
 </head>
 <body>
     <!--jumbotron-->
-    <div class="jumbotron p-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/logo.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a href="#" class="nav-link"><i class="fas fa-home"></i></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">company <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">security services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">database services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">resources</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
-                  </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                        <i class="fas fa-search"></i>
-                </button>
-              </form>
-            </div>
-          </nav>
-          <div class="container text-white text-center">
-                <p class="lead my-5 text-capitalize">
+    <div class="jumbotron p-0 banner">
+        <div class="col-md-11 offset-md-1">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                          <a class="navbar-brand" href="#">
+                              <img src="/assets/img/logo.png" alt="logo">
+                          </a>
+                          <ul class="navbar-nav mt-2 mt-lg-0 ">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                    <i class="fas fa-home"></i>
+                            </a>
+                            </li>
+                            <li class="nav-item text-uppercase">
+                              <a class="nav-link" href="#">company</a>
+                            </li>
+                            <li class="nav-item  text-uppercase">
+                                    <a class="nav-link" href="#">security services</a>
+                                  </li>
+                                  <li class="nav-item  text-uppercase">
+                                        <a class="nav-link" href="#">database services</a>
+                                      </li>
+                                      <li class="nav-item  text-uppercase">
+                                            <a class="nav-link" href="#">resource</a>
+                                          </li>
+                                          <li class="nav-item  text-uppercase">
+                                                <a class="nav-link" href="#">contact</a>
+                                              </li>
+                          </ul>
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </nav>
+        </div>
+          <div class="container text-white text-center" style="margin-top:15%">
+                <h3 class="display-5 text-capitalize">
                     web application security & penetration testing
-                </p>
+                </h3>
           </div>
-          <!--callout buttons-->
-          <div class="container pb-0">
-            <div class="d-flex align-items-baseline justify-content-end ml-4" role="group" aria-label="Call to action buttons">
-                    <button type="button" class="btn text-uppercase mr-2">security service &gt;</button>
-                    <button type="button" class="btn text-uppercase">database services &gt;</button>
-            </div>
-          </div><!--callout button-->
         </div> <!--jumbotron-->
+        <div class="d-flex align-items-baseline" role="group" aria-label="buttons" style="position: absolute;     position: absolute;
+        right: 61px;
+        margin-top: -38px;">
+                <button type="button" class="btn text-uppercase mr-2">security service &gt;</button>
+                <button type="button" class="btn text-uppercase">database services &gt;</button>
+        </div>
           <hr>
           <!--into and tweets-->
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="intro col-6 my-3">
                         <h2>
                                <strong>what we do</strong>
                                <span class="font-weight-light">
@@ -82,20 +78,47 @@
                                </span>
                         </h2>
                         <p>
-                            Established in 2001, pentest Limited is a
+                            <strong>Established in 2001, </strong>
+                            pentest Limited is a leading 
+                            provider of IT security, specialising
+                            in <a href="#">Web Application Security</a>
+                            and <a href="#">Penetration Testing Service.</a>
+                            Pentest consultants offer expertise,
+                            flexibilty, clear communication and extensive support
+                            before, during and after any assessment.
+                            <br>
+                            Pentest is an <strong>ISO 27001 & 9001 </strong>certified
+                            organisation, committed to providing an unparalleled service
+                            in the Information Security industry
                         </p>
+                        <div class="intro-link d-flex justify-content-around mb-4">
+                            <a href="#">
+                                Application Testing
+                            </a>
+
+                            <a href="#">
+                                Penetration Testing
+                            </a>
+                            <a href="#">
+                                Wireless Security
+                            </a>
+                            <a href="#">
+                                Source Patrol
+                            </a>
+                        </div>
                     </div>
                     <div class="col-6">
-                        <div class="row tweet-pane">
-                                <div class="col-12">
-                                        The mystery of abc
-                                    </div>
-                                    <div class="col-12">
-                                         The mystery of abc
-                                    </div>
-                                    <div class="col-12">
-                                         The mystery of abc
-                                    </div>
+                        <div class="tweet-pane my-5">
+                            <div class="col-12 text-center text-capitalize">
+                                    <i class="fab fa-twitter mr-3"></i>the #mystery in team are en route to france! please donate to show your
+                                support and we will promise...1/3
+                            </div>
+                            <div class="col-12 text-center text-capitalize">
+                                    <i class="fab fa-twitter mr-3"></i>that it will be awesome...2/3
+                            </div>
+                            <div class="col-12 text-center text-capitalize">
+                                    <i class="fab fa-twitter mr-3"></i>3/3
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -124,8 +147,8 @@
                 </div>
             </div>
           </div>
+          <hr class="secondary">
             <!--partners/clients-->
-            <hr>
             <!--contact form-->
             <div class="container">
                 <div class="row my-5">
@@ -158,6 +181,15 @@
                         <h4 class="display-5 text-uppercase">
                             application testing
                         </h4>
+                        <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Cras mattis sed odio eu tincidunt. Maecenas in dolor ultrices, 
+                                rhoncus tortor at, porttitor leo. Suspendisse placerat ultricies 
+                                lacus at vulputate. Vivamus quis nisl lacus. Vivamus nec tortor non 
+                                odio dignissim pulvinar. Proin venenatis convallis ante, non interdum sem. 
+                                Nulla vitae fringilla felis. Suspendisse elementum sodales tellus in mollis. 
+                                Ut lectus neque, aliquam vel nibh at, tincidunt venenatis leo. Donec sed bibendum lacus. 
+                                Sed molestie tellus tempor, condimentum mauris nec, sollicitudin nulla.</p>
                     </div>
                 </div>
             </div>
