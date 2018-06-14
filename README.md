@@ -1,1 +1,1 @@
-# Signle Page
+# Single Page

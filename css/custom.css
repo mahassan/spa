@@ -55,6 +55,9 @@ textarea.form-control{
     content:"|";
     margin-left:7px;
 }
+.intro-link a:link:last-child::after{
+    content:"";
+}
 strong{
     font-weight: 400;
 }
